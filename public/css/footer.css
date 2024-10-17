@@ -1,0 +1,29 @@
+@media(max-width:768px) {
+    footer{
+        height: 100%;
+        padding: 0px 20px;
+        background-color: var(--color-main-1);
+        margin-top: 40px;
+    }
+    .footer_content{
+        font-size: var(--font-size-0);
+        color: var(--color-white);
+        padding: 40px 16px;
+    }
+    .footer_title{
+        margin-bottom:40px;
+    }
+    .footer_title > h1{
+        font-size: var(--font-size-4);
+    }
+    .footer_info > p:first-child{
+        margin-bottom: 5px;
+    }
+    .footer_warn{
+        line-height: 25px;
+    }
+    .fm{
+        margin: 20px 0px;
+    }
+
+}

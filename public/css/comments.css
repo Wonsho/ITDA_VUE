@@ -1,0 +1,109 @@
+.container-comments {
+    width: 100%;
+
+    h1 {
+        display: none;
+    }
+    display: flex;
+    flex-direction: row;
+
+    img {
+        padding-right: 5px;
+        margin-top: 27px;
+        height: 20px;
+        width: 20px;
+    }
+    .comment-box{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+
+
+        header {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            display: flex;
+            flex-direction: row;
+
+            div {
+                color: #959595;
+                font-size: 16px;
+            }
+
+            section {
+                margin-left: auto;
+                form {
+                    input {
+
+                        padding-left: 5px;
+                        margin-left: 5px;
+                        font-size: 14px;
+                        color: var(--color-text-hidden);
+                    }
+                }
+            }
+        }
+
+        main {
+            span {
+                color: var(--color-main-1);
+            }
+            div {
+
+                color: var(--color-academyinfo);
+                font-size: 16px;
+                display: flex;
+                width: 100%;
+                flex-wrap: wrap;
+            }
+        }
+
+        footer {
+            margin-top: 5px;
+            display: flex;
+            width: 100%;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #D9D9D9;
+            div {
+                margin-left: auto;
+                font-size: 14px;
+                color: var(--color-text-hidden);
+            }
+        }
+
+        .input-comment {
+            margin-top: 10px;
+            display: flex;
+            width: 100%;
+            form {
+                width: 100%;
+                display: flex;
+                label {
+                    width: 100%;
+                    text-indent: -9999px; /* 텍스트를 화면 밖으로 이동 */
+                    overflow: hidden;
+                    display: flex;
+                   > input {
+                        width: 100%;
+                        margin-right: 10px;
+                        display: flex;
+                        border: 1px solid var(--color-main-1);
+                        padding-left: 5px;
+                        padding-top: 5px;
+                        padding-bottom: 4px;
+                    }
+                }
+
+                >input {
+                    border-radius: 10px;
+                    padding: 5px 10px;
+                    font-size: 14px;
+                    color: #ffffff;
+                    background: var(--color-main-1);
+                }
+            }
+        }
+
+
+    }
+}

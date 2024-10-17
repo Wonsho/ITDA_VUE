@@ -1,0 +1,146 @@
+@media(max-width:768px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: var(--color-main-3);
+    }
+
+    .community-write {
+        /* ----------헤더---------- */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #fff;
+            /* border-bottom: 1px solid #e0e0e0; */
+        }
+        .title-group {
+            display: flex;
+            align-items: center;
+        }
+        .header-back{
+            display: inline-block; /* 요소가 블록처럼 동작하도록 설정 */
+            background-color: var(--color-main-3); 
+            background-image: url("../icon/arrow_left.svg"); 
+            background-repeat: no-repeat; /* 이미지 반복 방지 */
+            background-position: center; /* 이미지 중앙 배치 */
+            width: 40px;
+            height: 24px;
+            /* text-indent: -9999px; 텍스트 숨기기 */
+            overflow: hidden; /* 추가된 텍스트가 보이지 않도록 설정 */
+            order: -1;
+            
+        }
+        
+        .header-back a {
+            display: block; /* 링크를 블록으로 만들어 전체 영역을 클릭 가능하게 함 */
+            width: 100%; /* 링크가 부모 요소의 너비를 차지하도록 설정 */
+            height: 100%; /* 링크가 부모 요소의 높이를 차지하도록 설정 */
+            color: transparent; /* 텍스트는 투명하게 설정 */
+            text-decoration: none; /* 밑줄 제거 */
+        }
+        .title {
+            font-size: var(--font-size-4);
+            color: var(--color-academyinfo);
+            font-weight: bold;
+        }
+        .logout-button {
+            font-size: var(--font-size-3);
+            color: var(--icon-color-bottom);
+            text-decoration: none;
+        }
+
+        /* --------메인--------- */
+        .container {
+            margin: 0;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 10px;
+            box-sizing: border-box;
+        }
+        .write-form {
+            background-color: white;
+            border-radius: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 10px;
+            /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+        }
+        .input-group {
+            margin-bottom: 10px;
+        }
+        input[type="text"], textarea {
+            font-size: var(--font-size-2);
+            height: 42px;
+            width: 100%;
+            padding: 10px;
+            border: 1px solid var(--icon-color-bottom);
+            border-radius: var(--radius-2);
+            box-sizing: border-box;
+        }
+        textarea {
+            font-family: "Pretendard";
+            height: 500px;
+            resize: vertical;
+        }
+        .file-input {
+            display: none;
+        }
+        /* .file-label {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid var(--icon-color-bottom);
+            border-radius: var(--radius-2);
+            cursor: pointer;
+        } */
+
+        /* ------새로 수정한 사진 파일 입력 부분------ */
+        .file-label {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 24px; /* 너비를 높이와 동일하게 설정 */
+            height: 24px; /* 기존 24px에 패딩 20px를 더한 값 */
+            padding: 12.34px; /* 패딩 제거 */
+            background-color: #fff;
+            border: 1px solid var(--icon-color-bottom);
+            border-radius: var(--radius-2);
+            cursor: pointer;
+        }
+        .file-label img {
+            width: 24px;
+            height: 24px;
+        }
+
+
+        /* -----------등록하기 버튼----------- */
+
+        /* .submit-block {
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+        } */
+
+        .submit-btn {
+            display: block;
+            background-color: var(--color-back-ground);
+            color: var(--icon-color-bottom);
+            border: 1px solid var(--color-text-hidden);
+            padding: 12px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: var(--font-size-1);
+            text-align: center;
+            width: 40%; /* 버튼 너비를 40%로 설정 */
+            max-width: 200px; /* 최대 너비 설정 */
+            margin: 0 auto; /* 좌우 마진을 auto로 설정하여 중앙 정렬 */
+            cursor: pointer;
+        }
+
+    }
+}

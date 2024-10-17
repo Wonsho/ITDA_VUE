@@ -1,0 +1,45 @@
+header{
+    h1{
+        font-size: var(--font-size-5);
+        color: var(--color-main-1);
+        font-weight: var(--font-weight-3);
+    }
+}
+
+.header-layout{
+    display: flex;
+    padding: var(--padding-4);
+    align-items: center;
+   
+    
+}
+
+
+.header-back{
+    display: inline-block; /* 요소가 블록처럼 동작하도록 설정 */
+    background-color: var(--detail--color-main-3); 
+    background-image: url("../icon/arrow_left.svg"); 
+    background-repeat: no-repeat; /* 이미지 반복 방지 */
+    background-position: center; /* 이미지 중앙 배치 */
+    width: 34px;
+    height: 54px;
+    text-indent: -9999px; /* 텍스트 숨기기 */
+    overflow: hidden; /* 추가된 텍스트가 보이지 않도록 설정 */
+    order: -1;
+    
+}
+
+.header-back a {
+    display: block; /* 링크를 블록으로 만들어 전체 영역을 클릭 가능하게 함 */
+    width: 100%; /* 링크가 부모 요소의 너비를 차지하도록 설정 */
+    height: 100%; /* 링크가 부모 요소의 높이를 차지하도록 설정 */
+    color: transparent; /* 텍스트는 투명하게 설정 */
+    text-decoration: none; /* 밑줄 제거 */
+}
+
+.header-login{
+   font-size: var(--font-size-3);
+   color: var(--detail--color-main-2);
+   margin-left: auto; 
+
+}
