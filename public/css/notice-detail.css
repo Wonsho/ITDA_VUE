@@ -27,7 +27,7 @@
 /* -----------게시물------------------ */
 
 /* 게시물 헤더*/
-:is(
+/* :is(
     .board,
    
 ){
@@ -35,10 +35,31 @@
     margin: 20px 20px;
    
     
-}
+} */
+
+ .board{
+    display: block;
+    margin: 0 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--icon-color-bottom);
+ }
 
 .bd-head{
     margin-bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+
+    >div>button {
+        background-image: url("/icon/more_horiz.svg");
+        background-repeat: no-repeat;
+        background-size: 24px 24px;;
+        border: none;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        background-color: transparent;
+        padding: 0px;
+    }
 }
 
 /* 게시물제목 */
@@ -46,6 +67,8 @@
     font-size: var(--font-size-3);
     font-weight: bold;
 }
+
+
 
 /* 더보기아이콘 */
 .add{
@@ -121,5 +144,5 @@
 
 /* 추천 아이콘 */
 .thumb-up{
-    background-image: url(/css/image/icon/thumbs_up.svg);
+    background-image: url("/img/thumb-up.svg");
 }

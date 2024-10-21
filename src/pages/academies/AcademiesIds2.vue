@@ -1,61 +1,28 @@
+<script>
+
+</script>
 <template>
-    <main>
+   <main>
         <section>
             <h1>훈련정보카테고리</h1>
-            <div class="d-category-layout">
-                <div><a href="">훈련과정정보</a></div>
-                <div><a href="">훈련기관정보</a></div>
-            </div>
             <div class="d-institution">한국ICT인재개발원</div>
-        </section>
-        <section>
-            <h1>기본정보들</h1>
-            <div class="d-academy-title">
-                <span>AI 활용 빅데이터 분석 및 응용 소프트 웨어 개발자</span>
-                <div>
-                    <button></button>
-                </div>
-            </div>
-            <div class="d-count">
-                <span>조회수 249</span>
-                <span>북마크 수 3</span>
-            </div>
             <section class="d-detail-info">
-                <h1>상세정보</h1>
+                    <h1>상세정보</h1>
                 <ul>
-                    <li>NCS 직문분류</li>
-                    <li>훈련시간</li>
-                    <li>정원</li>
-                    <li>취업률</li>
-                    <li>담당자명</li>
-                    <li>담당자 전화번호</li>
-                    <li>담당자 이메일</li>
+                    <li>주소</li>
+                    <li>홈페이지</li>
+                    <li>전화번호</li>
+                    <li>이메일</li>
                 </ul>
                 <ul>
-                    <li>응용SW엔지니어링(20010202)</li>
-                    <li>2024-07-12 ~ 2025-01-11</li>
-                    <li>30</li>
-                    <li>-</li>
-                    <li>정*호</li>
-                    <li>02-2626-9476</li>
+                    <li>서울시 양천구 목동중앙로 763-5</li>
+                    <li>http://jongro.greenart.co.kr/</li>
+                    <li>02-2646-9476</li>
                     <li>leelee03302@nate.com</li>
                 </ul>
             </section>
+            <div class="d-more-link">조회가 많은 과정 보러가기</div>
         </section>
-        <section class="d-cost">
-            <h1>훈련비용</h1>
-            <ul>
-                <li>전체 훈련 비용</li>
-                <li>정부 지원금</li>
-                <li>실제 훈련 비용</li>
-            </ul>
-            <ul class="d-cost-color">
-                <li>9,097,920원</li>
-                <li>8,221,440원</li>
-                <li>876,480원</li>
-            </ul>
-        </section>
-        <div class="d-more-link">조회가 많은 과정 보러가기</div>
         <section class="d-hot-process">
             <h1 >조회가 많은 과정들</h1>
             <a href="">
@@ -111,5 +78,5 @@
 </template>
 
 <style scoped>
-@import url("/css/detail.css");
+@import url("/css/detail2.css");
 </style>
