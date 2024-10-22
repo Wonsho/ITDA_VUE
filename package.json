@@ -10,6 +10,7 @@
     "serve": "vue-cli-service serve"
   },
   "dependencies": {
+    "itda": "file:",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
   },

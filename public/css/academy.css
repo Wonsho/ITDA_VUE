@@ -1,0 +1,249 @@
+
+
+.header-layout{
+    padding: 20px 20px 0px 20px;
+}
+
+
+
+@media (max-width:420px){
+
+
+    .list-bg{
+        /*background-color: var(--color-gray);*/
+
+    }
+
+    section h1{
+        display: none;
+    }
+
+
+
+
+
+    /* 검색 */
+
+    .search{
+        background-color: #fff;
+    }
+    .search-box{
+        height: 30px;
+        width: 350px;
+        background: white;
+        border-radius: 40px;
+        padding: 10px;
+        border: 1px solid #3b60ff;
+        margin: 20px;
+    }
+
+    .search-text{
+        border: none;
+        background: none;
+        outline: none;
+        float: left;
+        padding: 0px;
+        color: #797979;
+        font-size: 16px;
+        line-height: 30px;
+        width: 200px;
+    }
+
+    .search-btn{
+        color: #3b60ff;
+        float: right;
+        width: 40px;
+        height: 100%;
+        border-radius: 50%;
+        background: #fff;
+        border: none;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    /* 상단바 */
+    .top-bar{
+        background-color: #fff;
+        display: flex;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        padding-bottom: 5px;
+    }
+
+    /* 리스트 */
+    .main-list{
+        width: 100%;
+        justify-content:center;
+        align-items:center;
+        display: flex;
+        align-items: center;
+        color: var(--color-white);
+
+    }
+
+    .main-list:hover{
+        color: #334DCF;
+    }
+
+    .nav-text{
+        color: black;
+    }
+
+    .top-bar-filter{
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        background-color: #3b60ff;
+        color: #ddd;
+        padding: 5px 0px;
+        margin-left: 20px;
+        cursor: pointer;
+
+    }
+
+    .top-bar-filter:hover{
+        color: #fff;
+    }
+
+
+    /* 차순버튼 */
+    .btn {
+        padding-right: 20px;
+    }
+
+    .order-btn {
+        border-radius: 10px;
+        width: 24px;
+        height: 24px;
+        text-decoration: none;
+        display: flex;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 3px 10px;
+        background-color: var(--color-white);
+        position: relative;
+        margin-left: auto;
+        cursor: pointer;
+
+    }
+
+    .order-btn:hover {
+        transition: all 0.3s;
+        transform: translateY(-2px);
+    }
+
+    .order-list {
+        padding-top: .25rem;
+        padding-bottom: .25rem;
+        border: 0.2px solid #dadada;
+        border-radius: 10px;
+        width: 130px;
+        background-color: #fff;
+        right: 20px;
+        position: absolute;
+        z-index: 2;
+
+    }
+
+    .order-lists {
+        display: flex;
+        position: sticky;
+        width: 100%;
+        background-color: white;
+        border: 0;
+        background-color: transparent;
+        padding: 5px;
+        margin-left: 10px;
+        cursor: pointer;
+
+
+    }
+
+    .order-lists:hover {
+        color: var(--color-main-1);
+    }
+
+    /* ----연습중---- */
+    #check-btn {
+        display: none;
+    }
+
+    #check-btn:checked~.orders {
+        display: block;
+    }
+
+    .orders {
+        display: none;
+    }
+
+    .text-none {
+        text-indent: -9999px;
+        display: flex;
+    }
+
+
+
+    /* 학원목록 */
+    .accademy-list {
+        list-style-type: none;
+        padding: 10px;
+        display: flex;
+        position: relative;
+        z-index: 1;
+        flex-wrap: wrap;
+        background-color: #ffffff;
+        gap: 0px;
+        text-decoration: none;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        border-radius: 10px;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+
+    .accademy-list:hover {
+        transition: all 0.3s;
+        transform: translateY(-2px);
+    }
+
+
+    .on-off {
+        color: var(--color-main-1);
+        font-weight: bold;
+    }
+
+    .subject {
+        font-size: var(--font-size-2);
+        color: #333;
+        font-weight: bold;
+    }
+
+    .cash {
+        color: var(--detail--color-sub-1);
+    }
+
+    .region {
+        font-size: var(--font-size-0);
+        color: gray;
+
+    }
+
+    .date {
+        font-size: var(--font-size-0);
+        color: var(--color-sub-1);
+    }
+
+    /* 북마크 이모티콘 */
+    /* 좋아요 이모티콘 */
+    .heart {
+        position: absolute;
+        top: 0px;
+        right: 6px;
+        color: var(--detail--color-main-6);
+        cursor: pointer;
+
+    }
+}
+
+
+

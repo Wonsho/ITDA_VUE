@@ -7,6 +7,7 @@
     --color-line: #C6C6C6;
     --color-text-hidden: #959595;
     --color-white: white;
+    --color-gray: #e7e7e7;
 
     /* detail페이지 사용 색깔 */
     --detail--color-main-2: #747474;
@@ -19,12 +20,12 @@
     --detail--color-sub-2: #696969;
     --detail--color-sub-3: #4E4E4E;
     --detail--color-sub-6: #959595;
-    
+
 
 
 
     --icon-color-bottom: rgb(122,122,122);
-    
+
     --font-size-0: 14px;
     --font-size-1: 16px;
     --font-size-2: 18px;
@@ -69,8 +70,9 @@
     --padding-3: 15px;
     --padding-4: 20px;
     --padding-5: 25px;
+    --padding-6: 30px;
 
-    
+
     --font-weight-1: light;
     --font-weight-2: medium;
     --font-weight-3: bold;
@@ -78,13 +80,13 @@
 }
 
 body{
-    font-family:  'Pretendard','고딕','명조',Arial, Helvetica, sans-serif; 
-     /* font-family: Arial, sans-serif; */
+    font-family:  'Pretendard','고딕','명조',Arial, Helvetica, sans-serif;
+    /* font-family: Arial, sans-serif; */
     font-size: 16px;
     display: flex;
     flex-direction: column;
     height: 100%;
-    
+
 }
 
 html{
