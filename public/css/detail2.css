@@ -12,28 +12,29 @@ section h1{
 }
 
 .d-category-layout div:first-child{
-    border: 1px solid var(--color-main-1);
-    flex-grow: 1;
-    height: 50px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    border-bottom: none;
-    color: var(--color-main-1);
-    font-weight: var(--font-weight-3);
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-}
-
-.d-category-layout div:nth-child(2){
     border: 1px solid var(--color-text-hidden);
     flex-grow: 1;
     height: 50px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     border-bottom: none;
-    border-left: none;
     color: var(--color-text-hidden);
+    font-weight: var(--font-weight-3);
+    display: flex;
+    border-right: none; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.d-category-layout div:nth-child(2){
+    border: 1px solid var(--color-main-1);
+    flex-grow: 1;
+    height: 50px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: none;
+    
+    color: var(--color-main-1);
     font-weight: var(--font-weight-3);
     display: flex; 
     align-items: center; 
@@ -43,56 +44,9 @@ section h1{
 .d-institution{
     padding-top: var(--padding-4);
     padding-bottom: var(--padding-4);
-    font-size: var(--font-size-0);
-    color: var(--color-academyinfo);
-}
-
-.d-academy-title{
     display: flex;
-    justify-content: space-between;
-    
-
-    >span{
-        font-weight: var(--font-weight-3);
-        font-size: var(--font-size-3);
-    }
-
-    > div {
-        display: flex; 
-        
-    }
-
-    >div>button{
-        background-image: url("/icon/bookmark.svg");
-        background-repeat: no-repeat;
-        background-size: 24px 24px;;
-        border: none;
-        width: 34px;
-        height: 24px;
-        cursor: pointer;
-        background-color: transparent;
-        padding: 0px;
-        margin-left: var(--margin-2);
-        
-      
-    }
-}
-
-.d-count{
-    display: flex;
-    justify-content: space-between;
-    padding-top: var(--padding-2);
-    padding-bottom: var(--padding-4);
-}
-
-.d-count span:first-child{
-    font-size: var(--font-size-0);
-    color: var(--color-text-hidden);
-}
-
-.d-count span:nth-child(2){
-    font-size: var(--font-size-0);
-    color: var(--color-text-hidden);
+    justify-content: center;
+    font-weight: var(--font-weight-3);
 }
 
 .d-detail-info{
@@ -118,33 +72,6 @@ section h1{
     color: var(--color-academyinfo);
     gap: var(--gap-1);
      
-}
-
-.d-cost{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: var(--padding-4);
-    padding-right: var(--padding-4);
-    border-bottom: 1px solid var(--color-text-hidden);
-}
-.d-cost ul{
-    list-style: none; 
-    display: flex; 
-    flex-direction: column; 
-}
-
-.d-cost li{
-    padding: var(--gap-1) 0; 
-}
-
-.d-cost-color li:first-child{
-    color: var(--icon-color-bottom);
-}
-
-.d-cost-color li:nth-child(3){
-    color: var(--color-main-1);
 }
 
 .d-more-link{

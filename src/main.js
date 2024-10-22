@@ -7,6 +7,7 @@ import NoticeIds from "@/pages/notice/NoticeIds.vue";
 import Login from "@/pages/Login.vue";
 import Academies from "@/pages/academies/Academies.vue";
 import AcademiesIds from "@/pages/academies/AcademiesIds.vue";
+
 import Coummunity from "@/pages/coummunity/Coummunity.vue";
 import CommunityIds from "@/pages/coummunity/CommunityIds.vue";
 import Mpage from "@/pages/mpage/Mpage.vue";
@@ -16,6 +17,8 @@ import Record from "@/pages/mpage/Record.vue";
 import Alarm from "@/pages/Alarm.vue";
 import Default from "@/layouts/Default.vue";
 import CommunityWrite from "@/pages/coummunity/CommunityWrite.vue";
+
+;
 
 const router = createRouter({
         history: createWebHistory(),
@@ -27,6 +30,7 @@ const router = createRouter({
                     {path: 'notice/:id', component: NoticeIds}, /*공지사항 누르면*/
                     {path: 'login', component: Login}, /*로그인*/
                     {path: 'academies', component: Academies}, /*학원 리스트*/
+                       
                     {path: 'academies/:id', component: AcademiesIds}, /*학원 리스트 누르면*/
                     {path: 'community', component: Coummunity},/*커뮤니티*/
                     {path: 'community/write', component: CommunityWrite},/*커뮤니티 누르면 */
