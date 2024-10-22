@@ -3,14 +3,14 @@
 </script>
 
 <template>
-    <body>
+
 
     <main>
     <section class="mypage-profile">
         <h1 style="display: none;">프로필</h1>
         <div class="myprofile-content">
             <div class="content-img_box">
-                <img src="../icon/mypage/account.svg" alt="아이콘">
+                <img src="/icon/mypage/account.svg" alt="아이콘">
             </div>
             <div class="content-text_box">
                 <div class="name_text">
@@ -30,7 +30,7 @@
         <div class="text-none">filter_list</div>
         <input id="check-btn" type="checkbox">
          <label for="check-btn" class="order-btn">
-            <img src="/icon/mypage/add_list.svg" alt="">
+            <img src="/icon/more_horiz.svg" alt="">
          </label>
         <div class="orders order-list" role="none">
             <button style="color: var(--color-main-1);" class="order-lists">교육 시작 빠른순</button>
@@ -123,7 +123,7 @@
     </section>
 
     </main>
-</body>
+
 
 </template>
 
