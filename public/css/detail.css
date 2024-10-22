@@ -63,7 +63,7 @@ section h1{
     }
 
     >div>button{
-        background-image: url("/icon/bookmark.svg");
+        background-image: url("/icon/bookmark_empty.svg");
         background-repeat: no-repeat;
         background-size: 24px 24px;;
         border: none;
@@ -76,6 +76,15 @@ section h1{
         
       
     }
+    /* 북마크가 비어있을 때 */
+.d-bookmark-button.empty {
+    background-image: url("/icon/bookmark_empty.svg");
+}
+
+/* 북마크가 채워졌을 때 */
+.d-bookmark-button.filled {
+    background-image: url("/icon/bookmark.svg");
+}
 }
 
 .d-count{
@@ -198,4 +207,143 @@ section h1{
     align-items: center; 
     justify-content: center;
     margin-top: var(--margin-4); 
+}
+
+.d2 {
+
+    main{
+        padding-left: var(--padding-4);
+        padding-right: var(--padding-4);
+    }
+    
+    section h1{
+        display: none;
+    }
+    
+    .d-category-layout{
+        display: flex;
+        padding-bottom: var(--padding-4);
+    }
+    
+    .d-category-layout div:first-child{
+        border: 1px solid var(--color-text-hidden);
+        flex-grow: 1;
+        height: 50px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom: none;
+        color: var(--color-text-hidden);
+        font-weight: var(--font-weight-3);
+        display: flex;
+        border-right: none; 
+        align-items: center; 
+        justify-content: center; 
+    }
+    
+    .d-category-layout div:nth-child(2){
+        border: 1px solid var(--color-main-1);
+        flex-grow: 1;
+        height: 50px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom: none;
+        
+        color: var(--color-main-1);
+        font-weight: var(--font-weight-3);
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+    }
+    
+    .d-institution{
+        font-weight: initial;
+        color: initial;
+        color: black;
+        font-size: 16px;
+        padding-top: var(--padding-4);
+        padding-bottom: var(--padding-4);
+        display: flex;
+        justify-content: center;
+        font-weight: var(--font-weight-3);
+    }
+    
+    .d-detail-info{
+        display: flex;
+        padding: var(--padding-6);
+        padding-bottom: 50px;
+        justify-content: space-between;
+        margin-top: var(--margin-4);
+        gap: 50px;
+        align-items: flex-start;
+        border-bottom: 1px solid var(--color-text-hidden);
+    }
+    
+    .d-detail-info ul {
+        list-style: none; 
+        margin: 0; 
+        display: flex; 
+        flex-direction: column; 
+        
+    }
+    .d-detail-info li {
+        padding: var(--gap-1) 0;  
+        text-align: center;
+        color: initial;
+        color: var(--color-academyinfo);
+        gap: var(--gap-1);
+         
+    }
+    
+    .d-more-link{
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-weight: var(--font-weight-3);
+        justify-content: center;
+    }
+    
+    .d-hot-process{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid var(--color-text-hidden);
+        border-radius: var(--radius-1);
+        padding: var(--padding-4);
+        gap: 30px;
+    }
+    
+    .d-hot-process div{
+        display: flex;
+        flex-direction: column;
+       gap: var(--gap-2);
+       
+    }
+    
+    .d-hot-process span:first-child{
+        display: inline-flex;
+        border: 1px solid var(--color-main-1);
+        border-radius: var(--radius-1);
+        color: var(--color-main-1);
+        display: block; 
+        width: 100%; 
+        max-width: fit-content; 
+        box-sizing: border-box; 
+        text-align: center;
+        padding: 0 var(--padding-2); 
+    }
+    
+    .d-hot-process span:nth-child(3){
+        color: var(--color-academyinfo);
+    }
+    
+    .d-go-hrd{
+        border: 1px solid var(--color-main-1);
+        color: white;
+        border-radius: var(--radius-1);
+        background-color: var(--color-main-1);
+        height: 40px;
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+        margin-top: var(--margin-4); 
+    }
 }

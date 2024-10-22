@@ -5,7 +5,7 @@
    <main>
         <section>
             <h1>훈련정보카테고리</h1>
-            <div class="d-institution">한국ICT인재개발원</div>
+            <!-- <div class="d-institution">한국ICT인재개발원</div>
             <section class="d-detail-info">
                     <h1>상세정보</h1>
                 <ul>
@@ -20,7 +20,7 @@
                     <li>02-2646-9476</li>
                     <li>leelee03302@nate.com</li>
                 </ul>
-            </section>
+            </section> -->
             <div class="d-more-link">조회가 많은 과정 보러가기</div>
         </section>
         <section class="d-hot-process">

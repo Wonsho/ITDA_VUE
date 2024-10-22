@@ -1,19 +1,42 @@
+<script setup>
+import { ref } from 'vue';
+
+const activeSection = ref('course'); // 초기 활성 섹션
+const isBookmarked = ref(false); // 초기값: 북마크가 안된 상태
+
+const showCourseInfo = () => {
+    activeSection.value = 'course'; // 훈련과정정보 섹션 표시
+};
+
+const showInstitutionInfo = () => {
+    activeSection.value = 'institution'; // 훈련기관정보 섹션 표시
+};
+
+
+const toggleBookmark = () => {
+    isBookmarked.value = !isBookmarked.value; // 북마크 상태 토글
+};
+</script>
 <template>
     <main>
         <section>
             <h1>훈련정보카테고리</h1>
-            <div class="d-category-layout">
-                <div><a href="">훈련과정정보</a></div>
-                <div><a href="">훈련기관정보</a></div>
+            <div class="d-category-layout" v-if="activeSection === 'course'" >
+                <div><a href="#" @click.prevent="showCourseInfo">훈련과정정보</a></div>
+                <div><a href="#" @click.prevent="showInstitutionInfo">훈련기관정보</a></div>
             </div>
-            <div class="d-institution">한국ICT인재개발원</div>
+            <div v-if="activeSection === 'course'" class="d-institution">한국ICT인재개발원</div>
         </section>
-        <section>
+        <section v-if="activeSection === 'course'">
             <h1>기본정보들</h1>
             <div class="d-academy-title">
                 <span>AI 활용 빅데이터 분석 및 응용 소프트 웨어 개발자</span>
                 <div>
-                    <button></button>
+                    <button  @click="toggleBookmark" 
+                    :class="[
+                    'd-bookmark-button', 
+                    isBookmarked ? 'filled' : 'empty'
+                    ]"></button>
                 </div>
             </div>
             <div class="d-count">
@@ -42,7 +65,7 @@
                 </ul>
             </section>
         </section>
-        <section class="d-cost">
+        <section v-if="activeSection === 'course'"  class="d-cost">
             <h1>훈련비용</h1>
             <ul>
                 <li>전체 훈련 비용</li>
@@ -55,6 +78,29 @@
                 <li>876,480원</li>
             </ul>
         </section>
+
+        <div class="d2"  v-if="activeSection === 'institution'"> 
+            <div class="d-category-layout">
+                <div><a href="#" @click.prevent="showCourseInfo">훈련과정정보</a></div>
+                <div><a href="#" @click.prevent="showInstitutionInfo">훈련기관정보</a></div>
+            </div>
+            <div class=" d-institution">한국ICT인재개발원</div>
+            <section class="d-detail-info">
+                    <h1>상세정보</h1>
+                <ul>
+                    <li>주소</li>
+                    <li>홈페이지</li>
+                    <li>전화번호</li>
+                    <li>이메일</li>
+                </ul>
+                <ul>
+                    <li>서울시 양천구 목동중앙로 763-5</li>
+                    <li>http://jongro.greenart.co.kr/</li>
+                    <li>02-2646-9476</li>
+                    <li>leelee03302@nate.com</li>
+                </ul>
+            </section>
+        </div>
         <div class="d-more-link">조회가 많은 과정 보러가기</div>
         <section class="d-hot-process">
             <h1 >조회가 많은 과정들</h1>
