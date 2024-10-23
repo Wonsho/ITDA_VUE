@@ -4,7 +4,10 @@
 
 <template>
   <main class="community-write">
-    <h1 style="display: none">글쓰기</h1>
+    <div class="main">
+      <h1>글을 올려 다양한 사람과 만나보세요!</h1>
+      <p>ITDA와 함께면 생각의 폭을 넓힐 수 있어요</p>
+    </div>
     <section>
       <h1 style="display: none">글 작성</h1>
       <div class="container">
