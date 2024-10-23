@@ -18,8 +18,6 @@ import Alarm from "@/pages/Alarm.vue";
 import Default from "@/layouts/Default.vue";
 import CommunityWrite from "@/pages/coummunity/CommunityWrite.vue";
 
-;
-
 const router = createRouter({
         history: createWebHistory(),
         routes: [
@@ -42,6 +40,7 @@ const router = createRouter({
                     {path: 'alarm', component: Alarm},/*커뮤니티*/
                 ], component: Default, redirect: "/index"
             }
+
         ]
     }
 )
