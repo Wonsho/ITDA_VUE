@@ -3,10 +3,9 @@
 </script>
 
 <template>
-  <router-view />
+asdsa
 </template>
 
 <style scoped>
 
 </style>
-

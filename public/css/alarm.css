@@ -71,7 +71,11 @@
         border-bottom: 1px solid var(--icon-color-bottom);
     }
     .item-content{
+        width: 100%;
         position: relative;
+        a {
+            width: 100%;
+        }
     }
     .item-text ,.item-time{
         margin-bottom: 5px;

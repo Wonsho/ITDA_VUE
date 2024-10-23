@@ -8,6 +8,7 @@ import Login from "@/pages/Login.vue";
 import Academies from "@/pages/academies/Academies.vue";
 import AcademiesIds from "@/pages/academies/AcademiesIds.vue";
 
+import AdminIndex from "@/pages/admin/Index.vue"
 import Coummunity from "@/pages/coummunity/Coummunity.vue";
 import CommunityIds from "@/pages/coummunity/CommunityIds.vue";
 import Mpage from "@/pages/mpage/Mpage.vue";
@@ -17,6 +18,7 @@ import Record from "@/pages/mpage/Record.vue";
 import Alarm from "@/pages/Alarm.vue";
 import Default from "@/layouts/Default.vue";
 import CommunityWrite from "@/pages/coummunity/CommunityWrite.vue";
+import AdminDefault from "@/layouts/AdminDefault.vue";
 
 const router = createRouter({
         history: createWebHistory(),
@@ -39,6 +41,11 @@ const router = createRouter({
                     {path: 'mpage/record', component: Record},/*활동기록*/
                     {path: 'alarm', component: Alarm},/*커뮤니티*/
                 ], component: Default, redirect: "/index"
+            },
+            {
+                path: '/admin', children: [
+                    {path: 'index', component:AdminIndex }, /*기본*/
+                ], component: AdminDefault, redirect: "/index"
             }
 
         ]
