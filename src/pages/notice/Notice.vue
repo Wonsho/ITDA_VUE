@@ -26,7 +26,7 @@
               <span class="notice-date">2024-02-01</span>
             </div>
           </div>
-          <img src="../image/image.png" alt="공지 이미지" class="notice-image">
+          <img src="/img/image.png" alt="공지 이미지" class="notice-image">
         </li>
       </a>
       <a href="">
@@ -38,7 +38,7 @@
               <span class="notice-date">2024-02-01</span>
             </div>
           </div>
-          <img src="../image/image.png" alt="공지 이미지" class="notice-image">
+          <img src="/img/image.png" alt="공지 이미지" class="notice-image">
         </li>
       </a>
       <a href="">
@@ -50,7 +50,7 @@
               <span class="notice-date">2024-02-01</span>
             </div>
           </div>
-          <img src="../image/image.png" alt="공지 이미지" class="notice-image">
+          <img src="/img/image.png" alt="공지 이미지" class="notice-image">
         </li>
       </a>
       <a href="">
@@ -62,13 +62,13 @@
               <span class="notice-date">2024-02-01</span>
             </div>
           </div>
-          <img src="../image/image.png" alt="공지 이미지" class="notice-image">
+          <img src="/img/image.png" alt="공지 이미지" class="notice-image">
         </li>
       </a>
     </ul>
     <div class="pagination">
       <a href="">
-        <img src="../icon/vector_left.svg" class="skipPage" alt="맨 처음 페이지">
+        <img src="/icon/vector_left.svg" class="skipPage" alt="맨 처음 페이지">
       </a>
       <a href="" class="active">1</a>
       <a href="">2</a>
@@ -76,7 +76,7 @@
       <a href="">4</a>
       <a href="">5</a>
       <a href="">
-        <img src="../icon/vector_right.svg" class="skipPage" alt="맨 처음 페이지">
+        <img src="/icon/vector_right.svg" class="skipPage" alt="맨 처음 페이지">
       </a>
     </div>
   </main>

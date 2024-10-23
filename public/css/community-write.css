@@ -72,6 +72,7 @@
             margin-bottom: 10px;
         }
         input[type="text"], textarea {
+            color: var(--icon-color-bottom);
             font-size: var(--font-size-2);
             height: 42px;
             width: 100%;
@@ -83,7 +84,8 @@
         textarea {
             font-family: "Pretendard";
             height: 500px;
-            resize: vertical;
+            resize: none;
+            text-decoration: none;
         }
         .file-input {
             display: none;
@@ -116,15 +118,6 @@
             width: 24px;
             height: 24px;
         }
-
-
-        /* -----------등록하기 버튼----------- */
-
-        /* .submit-block {
-            display: flex;
-            justify-content: center;
-            justify-items: center;
-        } */
 
         .submit-btn {
             display: block;

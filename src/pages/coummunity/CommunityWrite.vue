@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <main>
+  <main class="community-write">
     <h1 style="display: none">글쓰기</h1>
     <section>
       <h1 style="display: none">글 작성</h1>
@@ -30,5 +30,5 @@
 </template>
 
 <style scoped>
-  @import "/css/community-write.css";
+  @import url("/css/community-write.css");
 </style>
