@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+    .admin-header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+
+        h1 {
+            color: #3E68FF;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        :nth-child(2) {
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+            margin-right: 16px;
+            align-content: center;
+            height: 100%;
+            order: -1;
+        }
+
+        :last-child {
+            color: var(--icon-color-bottom);
+            align-content: center;
+            margin-left: auto;
+        }
+
+    }
+}
