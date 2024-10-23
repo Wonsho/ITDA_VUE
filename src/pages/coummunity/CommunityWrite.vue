@@ -1,4 +1,17 @@
 <script setup>
+import { ref } from 'vue';
+
+const isModalOpen = ref(false);
+
+const openModal = (e) => {
+  e.preventDefault();
+  isModalOpen.value = true;
+};
+
+const closeModal = (e) => {
+  isModalOpen.value = false;
+};
+
 
 </script>
 
@@ -11,7 +24,7 @@
     <section>
       <h1 style="display: none">글 작성</h1>
       <div class="container">
-        <form class="write-form">
+        <form class="write-form" @submit="openModal">
           <div class="input-group">
             <input type="text" placeholder="제목을 입력하세요. (100자 제한)">
           </div>
@@ -28,6 +41,18 @@
           <button type="submit" class="submit-btn">등록하기</button>
         </form>
       </div>
+    </section>
+
+    <section class="alert-overlay" v-show="isModalOpen">
+      <h1 style="display: none;">등록 알림 섹션</h1>
+          <div class="alert-box">
+            <h2>알림</h2>
+            <p>등록하시겠습니까?</p>
+            <div class="alert-buttons">
+              <button class="btn btn-primary">등록</button>
+              <button class="btn btn-secondary" @click="closeModal">취소</button>
+            </div>
+          </div>
     </section>
   </main>
 </template>
