@@ -28,11 +28,11 @@ const router = createRouter({
                     {path: 'notice/:id', component: NoticeIds}, /*공지사항 누르면*/
                     {path: 'login', component: Login}, /*로그인*/
                     {path: 'academies', component: Academies}, /*학원 리스트*/
-                       
                     {path: 'academies/:id', component: AcademiesIds}, /*학원 리스트 누르면*/
                     {path: 'community', component: Coummunity},/*커뮤니티*/
                     {path: 'community/write', component: CommunityWrite},/*커뮤니티 누르면 */
                     {path: 'community/:id', component: CommunityIds},/*커뮤니티 누르면 */
+
                     {path: 'mpage', component: Mpage},/*마이페이지*/
                     {path: 'mpage/cname', component: Cname},/*이름 수정*/
                     {path: 'mpage/mypic', component: MyPic},/*마이픽*/
