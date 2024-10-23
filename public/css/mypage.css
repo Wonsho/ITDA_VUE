@@ -139,7 +139,7 @@
 
     }
     
-
+    /* 알림 빨간점 스타일 */
     .notification{
         position:absolute;
         left: -2px;

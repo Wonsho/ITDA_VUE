@@ -10,7 +10,7 @@
       <h1 style="display: none;">프로필</h1>
       <div class="myprofile-content">
         <div class="content-img_box">
-          <img src="../icon/mypage/account.svg" alt="아이콘">
+          <img src="/public/icon/mypage/account.svg" alt="아이콘">
         </div>
         <div class="content-text_box">
           <div class="name_text">

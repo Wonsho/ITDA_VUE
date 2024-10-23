@@ -51,7 +51,10 @@
       </div>
       <div class="action_alarm">
         <a href="#">
-          <div><img src="/icon/mypage/notion.svg" alt="알림 아이콘"></div>
+          <div>
+            <span class="notification badge"></span>
+            <img src="/icon/mypage/notion.svg" alt="알림 아이콘">
+          </div>
           <div>알림</div>
         </a>
       </div>

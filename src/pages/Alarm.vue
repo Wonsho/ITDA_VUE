@@ -17,79 +17,101 @@
       <h1 style="display: none;">알림 리스트</h1>
       <section class="comment_item">
         <div class="item-content">
-          <span class="notification badge" ></span>
-          <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
-          <div class="item-time">2024-01-12</div>
+          <a href="">
+            <span class="notification badge" ></span>
+            <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
+            <div class="item-time">2024-01-12</div>
+          </a>
         </div>
       </section>
       <section class="comment_item">
         <div class="item-content">
-          <span class="notification badge" ></span>
-          <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
-          <div class="item-time">2024-01-12</div>
+          <a href="">
+            <span class="notification badge" ></span>
+            <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
+            <div class="item-time">2024-01-12</div>
+          </a>
         </div>
       </section>
       <section class="comment_item">
         <div class="item-content">
-          <span class="notification badge" ></span>
-          <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
-          <div class="item-time">2024-01-12</div>
+          <a href="">
+            <span class="notification badge" ></span>
+            <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
+            <div class="item-time">2024-01-12</div>
+          </a>
         </div>
       </section>
       <section class="comment_item">
         <div class="item-content">
-          <span class="notification badge" ></span>
-          <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
-          <div class="item-time">2024-01-12</div>
+          <a href="">
+            <span class="notification badge" ></span>
+            <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
+            <div class="item-time">2024-01-12</div>
+          </a>
         </div>
       </section>
       <section class="comment_item">
         <div class="item-content">
-          <span class="notification badge" ></span>
-          <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
-          <div class="item-time">2024-01-12</div>
+          <a href="">
+            <span class="notification badge" ></span>
+            <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
+            <div class="item-time">2024-01-12</div>
+          </a>
         </div>
       </section>
       <section class="comment_item">
         <div class="item-content">
-          <span class="notification badge" ></span>
-          <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
-          <div class="item-time">2024-01-12</div>
+          <a href="">
+            <span class="notification badge" ></span>
+            <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
+            <div class="item-time">2024-01-12</div>
+          </a>
         </div>
       </section>
       <section class="comment_item">
         <div class="item-content">
-          <span class="notification badge" ></span>
-          <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
-          <div class="item-time">2024-01-12</div>
+          <a href="">
+            <span class="notification badge" ></span>
+            <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
+            <div class="item-time">2024-01-12</div>
+          </a>
         </div>
       </section>
       <section class="comment_item">
         <div class="item-content">
-          <span class="notification badge" ></span>
-          <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
-          <div class="item-time">2024-01-12</div>
+          <a href="">
+            <span class="notification badge" ></span>
+            <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
+            <div class="item-time">2024-01-12</div>
+          </a>
         </div>
       </section>
       <section class="comment_item">
         <div class="item-content">
-          <span class="notification badge" ></span>
-          <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
-          <div class="item-time">2024-01-12</div>
+          <a href="">
+            <span class="notification badge" ></span>
+            <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
+            <div class="item-time">2024-01-12</div>
+          </a>
         </div>
       </section>
       <section class="comment_item">
         <div class="item-content">
-          <span class="notification badge" ></span>
-          <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
-          <div class="item-time">2024-01-12</div>
+          <a href="">
+            <span class="notification badge" ></span>
+            <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
+            <div class="item-time">2024-01-12</div>
+          </a>
         </div>
       </section>
       <section class="comment_item">
         <div class="item-content">
-          <span class="notification badge" ></span>
-          <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
-          <div class="item-time">2024-01-12</div>
+          <a href="">
+            <span class="notification badge" ></span>
+            <div class="item-text">도형 님이 회원님의 댓글에 댓글을 남겼습니다.</div>
+            <div class="item-time">2024-01-12</div>
+          </a>
         </div>
       </section>
     </section>

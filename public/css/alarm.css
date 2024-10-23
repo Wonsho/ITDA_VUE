@@ -86,7 +86,7 @@
     .notification{
         position:absolute;
         left: 1px;
-        top: -5px;
+        top: -10px;
     }
     .badge{
         background-color: tomato;
