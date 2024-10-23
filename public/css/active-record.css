@@ -35,28 +35,33 @@
 .ar-search {
     display: flex;
     justify-content: end;
-
+    
     > form {
+        border: 1px solid var(--color-line);
+        border-radius: var(--radius-2);
+        width: 200px; 
+        height: 40px; 
         display: flex;
         align-items: center; 
         margin-left: var(--margin-4);
         margin-top: var(--margin-2);
         margin-right: var(--margin-4);
+        padding: 0 10px;
     }
 }
 
 .ar-search input {
-    width: 200px; 
-    height: 40px; 
-    border: 1px solid var(--color-line);
-    border-radius: var(--radius-2);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
     padding-right: 45px;
-    
+    border: 0px;
    
 }
 
 #ar-search-bar::placeholder{
-    text-align: center;
+    
 }
 
 

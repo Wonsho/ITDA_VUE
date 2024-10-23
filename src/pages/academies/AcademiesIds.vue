@@ -45,24 +45,36 @@ const toggleBookmark = () => {
             </div>
             <section class="d-detail-info">
                 <h1>상세정보</h1>
-                <ul>
-                    <li>NCS 직문분류</li>
-                    <li>훈련시간</li>
-                    <li>정원</li>
-                    <li>취업률</li>
-                    <li>담당자명</li>
-                    <li>담당자 전화번호</li>
-                    <li>담당자 이메일</li>
-                </ul>
-                <ul>
-                    <li>응용SW엔지니어링(20010202)</li>
-                    <li>2024-07-12 ~ 2025-01-11</li>
-                    <li>30</li>
-                    <li>-</li>
-                    <li>정*호</li>
-                    <li>02-2626-9476</li>
-                    <li>leelee03302@nate.com</li>
-                </ul>
+                <table>
+                    <tr>
+                        <th>NCS 직문분류</th>
+                        <td>응용SW엔지니어링(20010202)</td>
+                    </tr>
+                    <tr>
+                        <th>훈련기간</th>
+                        <td>2024-07-12 ~ 2025-01-11</td>
+                    </tr>
+                    <tr>
+                        <th>정원</th>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <th>취업률</th>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th>담당자명</th>
+                        <td>정*호</td>
+                    </tr>
+                    <tr>
+                        <th>담당자 전화번호</th>
+                        <td>02-2626-9476</td>
+                    </tr>
+                    <tr>
+                        <th>담당자 이메일</th>
+                        <td>leelee03302@nate.com</td>
+                    </tr>
+                </table>
             </section>
         </section>
         <section v-if="activeSection === 'course'"  class="d-cost">
@@ -87,18 +99,24 @@ const toggleBookmark = () => {
             <div class=" d-institution">한국ICT인재개발원</div>
             <section class="d-detail-info">
                     <h1>상세정보</h1>
-                <ul>
-                    <li>주소</li>
-                    <li>홈페이지</li>
-                    <li>전화번호</li>
-                    <li>이메일</li>
-                </ul>
-                <ul>
-                    <li>서울시 양천구 목동중앙로 763-5</li>
-                    <li>http://jongro.greenart.co.kr/</li>
-                    <li>02-2646-9476</li>
-                    <li>leelee03302@nate.com</li>
-                </ul>
+                <table>
+                    <tr>
+                        <th>주소</th>
+                        <td>서울시 양천구 목동중앙로 763-5</td>
+                    </tr>
+                    <tr>
+                        <th>홈페이지</th>
+                        <td>http://jongro.greenart.co.kr/</td>
+                    </tr>
+                    <tr>
+                        <th>전화번호</th>
+                        <td>02-2646-9476</td>
+                    </tr>
+                    <tr>
+                        <th>이메일</th>
+                        <td>leelee03302@nate.com</td>
+                    </tr>
+                </table>
             </section>
         </div>
         <div class="d-more-link">조회가 많은 과정 보러가기</div>
