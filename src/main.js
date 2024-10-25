@@ -19,6 +19,8 @@ import Alarm from "@/pages/Alarm.vue";
 import Default from "@/layouts/Default.vue";
 import CommunityWrite from "@/pages/coummunity/CommunityWrite.vue";
 import AdminDefault from "@/layouts/AdminDefault.vue";
+import Reviews from "@/pages/reviews/review.vue";
+import Review from '@/pages/reviews/review.vue';
 
 const router = createRouter({
         history: createWebHistory(),
@@ -33,7 +35,8 @@ const router = createRouter({
                     {path: 'academies/:id', component: AcademiesIds}, /*학원 리스트 누르면*/
                     {path: 'community', component: Coummunity},/*커뮤니티*/
                     {path: 'community/write', component: CommunityWrite},/*커뮤니티 누르면 */
-                    {path: 'community/:id', component: CommunityIds},/*커뮤니티 누르면 */
+                    { path: 'community/:id', component: CommunityIds },/*커뮤니티 누르면 */
+                    {path: 'reviews', component: Review},/*취업후기를 누르면*/
 
                     {path: 'mpage', component: Mpage},/*마이페이지*/
                     {path: 'mpage/cname', component: Cname},/*이름 수정*/
