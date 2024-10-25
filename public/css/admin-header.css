@@ -21,10 +21,17 @@
             order: -1;
         }
 
-        :last-child {
+        :nth-child(3) {
             color: var(--icon-color-bottom);
             align-content: center;
             margin-left: auto;
+        }
+
+        :last-child {
+            color: var(--icon-color-bottom);
+            font-size: 16px;
+            margin-left: 10px;
+            font-weight: bold;
         }
 
     }

@@ -9,6 +9,7 @@
       <img @click="" src="/icon/admin_header/menu.svg" alt="메뉴">
     </div>
     <div>관리자명</div>
+    <input type="submit" value="[Log out]">
   </header>
 </template>
 
