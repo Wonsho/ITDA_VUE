@@ -23,6 +23,7 @@ import Review from '@/pages/reviews/Review.vue';
 import UserPage from '@/pages/admin/UserPage.vue';
 import BlockUserPage from './pages/admin/BlockUserPage.vue';
 import ReportPage from './pages/admin/ReportPage.vue';
+import LoginModal from './pages/admin/LoginModal.vue';
 
 const router = createRouter({
         history: createWebHistory(),
@@ -50,6 +51,7 @@ const router = createRouter({
             {
                 path: '/admin', children: [
                     {path: 'index', component:AdminIndex }, /*기본*/
+                    {path: 'login', component:LoginModal }, /*로그인 모달*/
                     {path: 'user', component:UserPage }, /*회원 관리*/
                     {path: 'user/block', component:BlockUserPage }, /*차단 회원 관리*/
                     {path: 'user/report', component:ReportPage }, /*신고 관리*/
