@@ -1,31 +1,13 @@
+
+
 .review-section {
     margin-left: 20px;
     margin-right: 20px;
-
-    header {
-        margin-top: 20px;
-        color: var(--color-main-1);
-        font-size: 18px;
-        font-weight: bold;
-
-        h2 {
-            
-            margin-top: 10px;
-            color: black;
-        }
-
-        h3 {
-            font-size: 14px; 
-            margin-top: 10px;
-            color: var(--icon-color-bottom);
-            font-weight: normal;
-        }
-
-       
-
+    padding-bottom: 20px;
     }
 
     li {
+        
         justify-items: center;
         justify-content: center;
         align-content: center;
@@ -92,4 +74,45 @@
         }
     }
 
+.detail{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    h1{
+        display: none;
+    }
 }
+
+.question{
+    padding: 20px 10px 50px 10px;
+
+    div {
+        margin-bottom: 60px;
+
+        dl{
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        dd{
+            font-size: 14px;
+        }
+    }    
+}
+
+
+.list-btn{
+    color: var(--color-main-1);
+    background-color: white;
+    border: none;
+    float: right;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+
+}
+
+
+
+   
+

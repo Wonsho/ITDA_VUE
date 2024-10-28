@@ -2,8 +2,9 @@
    <main>
    <section class="review-section">
       <header>
-        <h1><span>N살 비전공자</span>인데..</h1>
-        <h2>취업할 수 있을까요?</h2>
+        <h1>현실 취업후기</h1>
+        <h2>N살 비전공자인데 취업 가능할까요?</h2>
+        <h3>이제 그런 걱정은 노노! 진짜 우리 주변의 이야기를, 취업 스토리를 참고해 보세요.</h3>
       </header>
 
       <ul>
@@ -11,7 +12,7 @@
     
           <dl class="info">
             <dt>이름</dt>
-            <dd class="name">이도형</dd>
+            <dd class="name">이도형 </dd>
             <dt>지원 분야</dt>
             <dd class="part">백앤드</dd>
           </dl>
@@ -37,6 +38,6 @@
 
 </template>
 
-<style>
-/* @import url("css/review.css"); */
+<style scoped>
+@import "/css/review.css";
 </style>

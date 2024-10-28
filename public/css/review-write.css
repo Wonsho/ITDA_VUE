@@ -1,31 +1,12 @@
 .review-section {
     margin-left: 20px;
     margin-right: 20px;
-
-    header {
-        margin-top: 20px;
-        color: var(--color-main-1);
-        font-size: 18px;
-        font-weight: bold;
-
-        h2 {
-            
-            margin-top: 10px;
-            color: black;
-        }
-
-        h3 {
-            font-size: 14px; 
-            margin-top: 10px;
-            color: var(--icon-color-bottom);
-            font-weight: normal;
-        }
-
-       
-
+    padding-bottom: 20px;
+    
     }
 
     li {
+        
         justify-items: center;
         justify-content: center;
         align-content: center;
@@ -55,6 +36,10 @@
 
         .info {
             gap: 10px;
+            justify-items: center;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
             display: flex;
             dt {
                 display: none;
@@ -73,23 +58,75 @@
             margin-top: 15px;
             display: flex;
             flex-direction: column;
+            justify-items: center;
+             justify-content: center;
+            align-content: center;
+            align-items: center;
             gap: 10px;
 
             div {
                 display: flex;
-
+                gap: 10px;
 
                 dd {
                     padding-left: 25px;
                     margin-left: auto;
                 }
-            }
-        }
 
-        p {
-            text-align: center;
-            margin: 20px 50px 40px;
+                input{
+                    padding-left: 5px;
+                }
+            }
         }
     }
 
+.text{
+    display: flex;
+    gap: 5px;
+    padding: 10px 20px 10px 20px;
+    height: 130px;
+    min-width: 0;
+
+    div{
+        writing-mode: horizontal-tb;
+        display: inline-block;
+        align-items: center;
+        display: flex;
+        
+    }
+    
 }
+
+.text-btn{
+    width: 100%;
+}
+
+.detail{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    h1{
+        display: none;
+    }
+}
+
+.question{
+    padding: 20px 10px 50px 10px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+
+        dl{
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        input{
+            line-height: normal;
+            font-size: 14px;
+            height: 72px;
+        }
+    }    
+}
+

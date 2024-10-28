@@ -24,6 +24,8 @@ import UserPage from '@/pages/admin/UserPage.vue';
 import BlockUserPage from './pages/admin/BlockUserPage.vue';
 import ReportPage from './pages/admin/ReportPage.vue';
 import LoginModal from './pages/admin/LoginModal.vue';
+import ReviewsDetail from './pages/reviews/Detail.vue'
+import ReviewsWrite from './pages/reviews/write.vue';
 
 const router = createRouter({
         history: createWebHistory(),
@@ -40,7 +42,8 @@ const router = createRouter({
                     {path: 'community/write', component: CommunityWrite},/*커뮤니티 누르면 */
                     { path: 'community/:id', component: CommunityIds },/*커뮤니티 누르면 */
                     {path: 'reviews', component: Review},/*취업후기를 누르면*/
-
+                    {path: 'reviews/detail', component: ReviewsDetail},/*취업후기를 게시물을 누르면*/
+                    {path: 'reviews/write', component:ReviewsWrite},/*취업후기 작성을 누르면*/
                     {path: 'mpage', component: Mpage},/*마이페이지*/
                     {path: 'mpage/cname', component: Cname},/*이름 수정*/
                     {path: 'mpage/mypic', component: MyPic},/*마이픽*/
