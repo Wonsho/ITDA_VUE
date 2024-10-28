@@ -1,0 +1,178 @@
+@media(max-width: 768px){
+
+    .main{
+        /* margin: 20px; */
+        padding: 20px;
+        background-color: var(--color-info-back);
+
+        .main-header{
+            height: 50px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: flex;        
+            align-items: center;
+
+            div{
+                display: flex;
+                margin-right: 5px;
+            }
+        }
+
+        .purpose{
+            font-size: var(--font-size-1);
+            font-weight: var(--font-weight-3);
+            color: black;
+
+        }
+        .count{
+            font-size: var(--font-size-0);
+            font-weight: var(--font-weight-3);
+            color: black;
+        }
+
+        .home_tab_search-content{
+            margin-left: auto;
+            display: flex;
+        }
+        
+        .home_tab_search-content form{
+            display: flex;
+            position: relative;
+            align-items: center;
+            flex-direction: row;
+            height: 100%;
+        } 
+        
+        .home_tab_search-content input{
+            width: 120px;
+            height: 28px;
+            border: 1px solid var(--color-line);
+            border-radius: var(--radius-2);
+            padding: 0px 35px 0px 15px;
+            font-size: var(--font-size-0);
+            font-family: "Pretendard";
+        } 
+        
+        .home_tab_search-content button{
+            width: 35px;
+            height: 35px;
+            position: absolute;
+            border: none;
+            background-color: transparent;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+        
+        .home_tab_search-content button::before{
+            content: '';
+            display: inline-block;
+            background-image: url(/icon/search-icon.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 15px;
+            height: 15px;
+        }
+
+        /* -----------메인----------- */
+
+        .main-main {
+            /* min-height: 30 */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid var(--color-line);
+            border-radius: var(--radius-2);
+            width: 100%;
+
+            :last-child{
+                border-bottom: 0px;
+                border-radius: 0 0 var(--radius-2) var(--radius-2);
+            }
+
+            section {
+                width: 100%;
+                /* padding: 5px; */
+                border-bottom: 1px solid var(--color-line);
+            }
+        
+            .data-column, .data-record {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                width: 100%;
+                
+                div {
+                    padding: 8px; 
+                    /* padding: 5px 16.5px 5px 16.5px; */
+                    text-align: center;
+                    
+                    p {
+                        font-size: var(--font-size-0);
+                        color: black;
+                        white-space: nowrap;
+                    }
+                }
+            }
+
+            .data-column{
+                background-color: var(--color-info-back);
+            }
+
+            .data-record{
+                background-color: white;
+                .id {
+                    color: var(--color-text-hidden);
+                }
+            }
+    
+        }
+
+
+
+
+        /* 하단 페이지 선택 */
+        .pagination {
+            height: 20px; /* 높이를 증가시켜 여유 공간 확보 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: var(--margin-2);
+        }
+        .pagination a {
+            margin-left: var(--margin-3);
+            text-decoration: none;
+            color: var(--icon-color-bottom);
+            font-size: var(--font-size-2);
+            border: none;
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+        .pagination a.active {
+            color: var(--color-main-1);
+        }
+        .pagination .skipPage {
+            width: 11px;
+            height: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .pagination .prev::before,
+        .pagination .next::before {
+            content: '';
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-top: 2px solid var(--icon-color-bottom);
+            border-right: 2px solid var(--icon-color-bottom);
+        }
+        .pagination .prev::before {
+            transform: rotate(-135deg);
+        }
+        .pagination .next::before {
+            transform: rotate(45deg);
+        }
+    }
+}
