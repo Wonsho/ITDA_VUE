@@ -10,7 +10,9 @@
                 <div class="bd-head">
                     <!-- 더보기 버튼 -->
                     <span class="bd-title">게시물 제목</span>
-                        <label id="btn2" onclick='addBtn()' class="material-icons add">more_horiz</label>
+                        <label id="btn2" onclick='addBtn()' class="material-icons add">
+                            <img src="/public/icon/more_horiz.svg" alt="">
+                            </label>
                 <div class="bd-sub">
                     <span>5 분 전</span>
                     <span>조회 15</span>
@@ -33,7 +35,7 @@
         <article>
             <div>
                 <p class="img-bg">
-                    <img src="/css/image/full.png" alt="게시물이미지" class="img">
+                    <img src="" alt="게시물이미지" class="img">
                 </p>
                 <p>
                     텍스트 제한수를 고려한 게시물 글씨를 쓰고있는데 몇글자를 해야할까
@@ -43,7 +45,7 @@
         <div class="rec">
             <button class="rec-btn">
               <!-- <i class="fa-regular fa-thumbs-up fa-2x"></i> -->
-               <i><img src="css/image/icon/thumbs_up.svg" alt=""></i>
+               <i><img src="" alt=""></i>
                 <span class="rec-count">21</span>
             </button>
         </div>
@@ -82,7 +84,9 @@
             <!----------- 대 댓글 ----------------->
             <li class="comment-box">
                 <div class="cm-pd">
-                <i class="material-icons">subdirectory_arrow_right</i>
+                <i class="material-icons">
+                    <img src="/public/icon/comments-arrow.svg" alt="">
+                </i>
                
                 <div class="cm-header">
                         <span class="nickname cc">닉네임</span>
@@ -114,7 +118,10 @@
         <div class="count">
             <span class="page-count">
                 <a href="">
-                    <i class="material-icons c-icon">keyboard_arrow_left</i>
+                    <i class=" c-icon">
+                        <img src="/public/icon/arrow_left.svg" alt="">
+                       
+                    </i>
                 </a>
                 <a href="">1</a>
                 <a href="">2</a>
@@ -122,7 +129,9 @@
                 <a href="">4</a>
                 <a href="">5</a>
                 <a href="">
-                    <i class="material-icons">keyboard_arrow_right</i>
+                    <i >
+                        <img src="/public/icon/arrow_right.svg" alt="">
+                    </i>
                 </a>
             </span>
         </div>
@@ -145,5 +154,5 @@
 </template>
 
 <style scoped>
-@import url("css/community-board.css");
+/* @import url("/css/community-board.css"); */
 </style>
