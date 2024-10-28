@@ -19,8 +19,10 @@ import Alarm from "@/pages/Alarm.vue";
 import Default from "@/layouts/Default.vue";
 import CommunityWrite from "@/pages/coummunity/CommunityWrite.vue";
 import AdminDefault from "@/layouts/AdminDefault.vue";
-import Reviews from "@/pages/reviews/review.vue";
-import Review from '@/pages/reviews/review.vue';
+import Review from '@/pages/reviews/Review.vue';
+import UserPage from '@/pages/admin/UserPage.vue';
+import BlockUserPage from './pages/admin/BlockUserPage.vue';
+import ReportPage from './pages/admin/ReportPage.vue';
 
 const router = createRouter({
         history: createWebHistory(),
@@ -48,6 +50,9 @@ const router = createRouter({
             {
                 path: '/admin', children: [
                     {path: 'index', component:AdminIndex }, /*기본*/
+                    {path: 'user', component:UserPage }, /*회원 관리*/
+                    {path: 'user/block', component:BlockUserPage }, /*차단 회원 관리*/
+                    {path: 'user/report', component:ReportPage }, /*신고 관리*/
                 ], component: AdminDefault, redirect: "/index"
             }
 
