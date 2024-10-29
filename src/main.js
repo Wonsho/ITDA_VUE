@@ -25,7 +25,7 @@ import BlockUserPage from './pages/admin/BlockUserPage.vue';
 import ReportPage from './pages/admin/ReportPage.vue';
 import LoginModal from './pages/admin/LoginModal.vue';
 import ReviewsDetail from './pages/reviews/Detail.vue'
-import ReviewsWrite from './pages/reviews/write.vue';
+import ReviewsWrite from './pages/reviews/Write.vue';
 
 const router = createRouter({
         history: createWebHistory(),

@@ -64,25 +64,15 @@
         .file-input {
             display: none;
         }
-        /* .file-label {
-            display: inline-block;
-            width: 24px;
-            height: 24px;
-            padding: 10px;
-            background-color: #fff;
-            border: 1px solid var(--icon-color-bottom);
-            border-radius: var(--radius-2);
-            cursor: pointer;
-        } */
 
         /* ------새로 수정한 사진 파일 입력 부분------ */
         .file-label {
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 24px; /* 너비를 높이와 동일하게 설정 */
-            height: 24px; /* 기존 24px에 패딩 20px를 더한 값 */
-            padding: 12.34px; /* 패딩 제거 */
+            width: 24px; 
+            height: 24px; 
+            padding: 12.34px; 
             background-color: #fff;
             border: 1px solid var(--icon-color-bottom);
             border-radius: var(--radius-2);
@@ -103,9 +93,9 @@
             cursor: pointer;
             font-size: var(--font-size-1);
             text-align: center;
-            width: 40%; /* 버튼 너비를 40%로 설정 */
-            max-width: 200px; /* 최대 너비 설정 */
-            margin: 0 auto; /* 좌우 마진을 auto로 설정하여 중앙 정렬 */
+            width: 40%;
+            max-width: 200px; 
+            margin: 0 auto; 
             cursor: pointer;
         }
 
